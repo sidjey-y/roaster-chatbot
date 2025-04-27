@@ -1,0 +1,133 @@
+.roast-o-meter {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.roast-o-meter h2 {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.total-level {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.level-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.level-circle span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.total-level p {
+  font-size: 1rem;
+  color: var(--dark-gray);
+  margin: 0;
+}
+
+.meters {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.meter {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.meter-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.meter-value {
+  font-weight: 500;
+}
+
+.meter-value.low {
+  color: var(--accent-color);
+}
+
+.meter-value.medium {
+  color: var(--secondary-color);
+}
+
+.meter-value.high {
+  color: var(--primary-color);
+}
+
+.meter-bar {
+  height: 12px;
+  background-color: var(--light-gray);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.meter-fill {
+  height: 100%;
+  transition: width 0.5s ease;
+  border-radius: 6px;
+}
+
+.meter-fill.low {
+  background-color: var(--accent-color);
+}
+
+.meter-fill.medium {
+  background-color: var(--secondary-color);
+}
+
+.meter-fill.high {
+  background-color: var(--primary-color);
+}
+
+@keyframes pulse {
+  0% { opacity: 0.7; }
+  50% { opacity: 1; }
+  100% { opacity: 0.7; }
+}
+
+.meter-fill.changing {
+  animation: pulse 1s infinite;
+}
+
+@media (max-width: 768px) {
+  .level-circle {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .level-circle span {
+    font-size: 1.2rem;
+  }
+  
+  .meter-label {
+    font-size: 0.8rem;
+  }
+  
+  .roast-o-meter h2 {
+    font-size: 1.3rem;
+  }
+} 

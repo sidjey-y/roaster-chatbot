@@ -8,7 +8,6 @@ A full-stack web application featuring a witty chicken chatbot that playfully "r
 
 ![Demo GIF](images/Roaster-Dashboard.png)
 
-[Live Demo](#) | [Video Walkthrough](#)
 
 ## ✨ Features
 
@@ -99,14 +98,7 @@ npm install
 npm start
 ```
 The client will start on http://localhost:3000
-
-## 📱 Screenshots
-
-<div style="display: flex; justify-content: space-between; margin: 20px 0;">
-  <img src="https://via.placeholder.com/250x500?text=Mobile+View" alt="Mobile View" width="30%">
-  <img src="https://via.placeholder.com/500x350?text=Desktop+Chat+View" alt="Desktop Chat" width="30%">
-  <img src="https://via.placeholder.com/500x350?text=Roast+O+Meter" alt="Roast-O-Meter" width="30%">
-</div>
+>
 
 ## 🧠 How It Works
 
@@ -215,7 +207,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <p>Created with 🔥 and 🐔 by <a href="https://github.com/yourusername">Your Name</a></p>
+  <p>Created with 🔥 and 🐔 by <a href="https://github.com/yourusername">Sidjey</a></p>
   <p>
     <a href="#"><img src="https://img.shields.io/github/stars/yourusername/roaster?style=social" alt="GitHub stars"></a>
     <a href="#"><img src="https://img.shields.io/github/forks/yourusername/roaster?style=social" alt="GitHub forks"></a>

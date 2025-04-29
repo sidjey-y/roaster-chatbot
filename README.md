@@ -11,8 +11,8 @@ A full-stack web application featuring a witty chicken chatbot that playfully "r
 
 ## ✨ Features
 
-- **Interactive Chat Interface**: Send messages and receive witty, customized roasts
-- **Dynamic Analysis**: Messages are analyzed in real-time for patterns like:
+- Send messages and receive witty, customized roasts
+- Messages are analyzed in real-time for patterns like:
   - Short one-word messages → playful roast about laziness
   - Overly formal language → teasing about being "too serious"
   - Excessive emoji use → jokes about emoji artistry
@@ -23,9 +23,9 @@ A full-stack web application featuring a witty chicken chatbot that playfully "r
   - 🤡 Clown Energy
   - 🎭 Drama Potential
   - ⌨️ Keyboard Warrior Energy
-- **Reactive Mascot**: Animated chicken character that changes expressions based on user messages
-- **Responsive Design**: Fully mobile-friendly interface
-- **Persistent Metrics**: Roast metrics stored in localStorage between sessions
+- Animated chicken character that changes expressions based on user messages
+- Fully mobile-friendly interface
+- Roast metrics stored in localStorage between sessions
 
 ## 🛠️ Tech Stack
 
@@ -51,24 +51,6 @@ A full-stack web application featuring a witty chicken chatbot that playfully "r
 - **GitHub** - Source code management
 - **Vercel** - Deployment platform
 
-## 📋 Architecture
-
-The application follows a client-server architecture with WebSocket communication:
-
-```
-┌─────────────────┐      WebSockets      ┌─────────────────┐
-│                 │<-------------------->│                 │
-│  React Frontend │   (Socket.io)        │  Node.js Backend│
-│                 │                      │                 │
-└─────────────────┘                      └─────────────────┘
-        │                                        │
-        │                                        │
-        ▼                                        ▼
-┌─────────────────┐                      ┌─────────────────┐
-│  LocalStorage   │                      │ Message Analysis│
-│   (Browser)     │                      │    Engine       │
-└─────────────────┘                      └─────────────────┘
-```
 
 ## 🚀 Installation and Setup
 
@@ -112,15 +94,6 @@ The client will start on http://localhost:3000
 8. Client updates the UI with the roast and new metrics
 9. The chicken mascot reacts with an appropriate expression
 
-## 🤔 Message Analysis Details
-
-| Behavior Pattern | Detection Method | Metrics Impact | Chicken Reaction |
-|------------------|------------------|---------------|------------------|
-| Short Messages | `message.length < 10 && words <= 2` | +5 Spicy, -5 Drama | Smug 😏 |
-| Formal Language | Regex for formal phrases | +15 Clown, -5 Drama | Laughing 😂 |
-| Emoji Overuse | `(emojiCount / messageLength) > 0.15` | +20 Clown | Shocked 😱 |
-| Long Messages | `message.length > 200` | +15 Drama, +10 Spicy | Sleepy 😴 |
-| Message Spamming | Time between messages < 1s | +20 Keyboard Warrior | Shocked 😱 |
 
 ## 🔄 Deployment
 

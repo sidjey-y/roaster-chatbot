@@ -30,18 +30,18 @@ A full-stack web application featuring a witty chicken chatbot that playfully "r
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React.js** - UI library for building the interface
-- **Socket.io-client** - Real-time bidirectional communication
-- **CSS3** - Custom styling with animations
-- **LocalStorage API** - For persisting user metrics between sessions
-- **WebSockets** - For real-time chat functionality
+- **React.js** 
+- **Socket.io-client** 
+- **CSS3** 
+- **LocalStorage API**
+- **WebSockets**
 
 ### Backend
-- **Node.js** - JavaScript runtime environment
-- **Express.js** - Web application framework
-- **Socket.io** - Real-time event-based communication
-- **RegEx** - For message pattern analysis
-- **CORS** - Cross-Origin Resource Sharing
+- **Node.js**
+- **Express.js** 
+- **Socket.io** 
+- **RegEx**
+- **CORS** 
 
 ### Development Tools
 - **npm** - Package management
@@ -52,35 +52,8 @@ A full-stack web application featuring a witty chicken chatbot that playfully "r
 - **Vercel** - Deployment platform
 
 
-## 🚀 Installation and Setup
-
-### Prerequisites
-- Node.js (v14 or higher)
-- npm (v6 or higher)
-- Git
-
-### Clone the Repository
-```bash
-git clone https://github.com/sidjey-y/roaster-chatbot.git
-cd roaster
-```
-
-### Backend Setup
-```bash
-cd server
-npm install
-npm run dev
-```
-The server will start on http://localhost:5000
-
-### Frontend Setup
-```bash
-cd client
-npm install
-npm start
-```
 The client will start on http://localhost:3000
->
+
 
 ## 🧠 How It Works
 
@@ -95,54 +68,6 @@ The client will start on http://localhost:3000
 9. The chicken mascot reacts with an appropriate expression
 
 
-## 🔄 Deployment
-
-The application is configured for easy deployment on Vercel:
-
-1. Fork this repository to your GitHub account
-2. Connect your Vercel account to your GitHub repository
-3. Configure the build settings:
-   - Build Command for client: `cd client && npm install && npm run build`
-   - Output Directory for client: `client/build`
-   - Build Command for server: `cd server && npm install`
-   - Output Directory for server: `server`
-4. Deploy!
-
-## 🗂️ Project Structure
-
-```
-roaster/
-├── client/                 # Frontend React application
-│   ├── public/             # Static assets
-│   │   ├── components/     # React components
-│   │   │   ├── ChatContainer.js
-│   │   │   ├── ChickenMascot.js
-│   │   │   ├── Header.js
-│   │   │   └── RoastOMeter.js
-│   │   ├── App.js          # Main application component
-│   │   ├── index.js        # Entry point
-│   │   └── *.css           # Stylesheets
-│   └── package.json        # Frontend dependencies
-│
-├── server/                 # Backend Node.js application
-│   ├── server.js           # Express and Socket.io setup
-│   ├── roasterLogic.js     # Message analysis and roast generation
-│   └── package.json        # Backend dependencies
-│
-├── vercel.json             # Vercel deployment configuration
-└── README.md               # Project documentation
-```
-
-## 👥 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add some amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
 ## 🔮 Future Enhancements
 
 - User authentication
@@ -155,27 +80,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Achievement badges based on roast patterns
 - Social sharing of favorite roasts
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgements
-
-- [Socket.io](https://socket.io/) for real-time communication
-- [React](https://reactjs.org/) for the UI framework
-- [Express](https://expressjs.com/) for the backend framework
-- [Vercel](https://vercel.com/) for deployment
-- All contributors and testers who helped shape this project
-
-## 🧪 Core Roast Categories
-
-| Category | Example Roasts |
-|----------|----------------|
-| Short Messages | "Saving those keystrokes for something important later?" |
-| Formal Language | "Did you swallow a dictionary before typing that message?" |
-| Emoji Overuse | "Are you communicating or just having a seizure on the emoji keyboard?" |
-| Long Messages | "I asked for a message, not your autobiography." |
-| Message Spamming | "Your keyboard might file for abuse soon." |
 
 ---
 

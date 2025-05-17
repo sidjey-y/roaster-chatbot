@@ -4,12 +4,12 @@
 
 A full-stack web application featuring a witty chicken chatbot that playfully "roasts" users based on their chat behavior. As users interact with Roaster, the app analyzes messaging patterns and responds with humorous, light-hearted roasts while dynamically updating a "Roast-O-Meter" that tracks various attributes.
 
-## 🔥 Demo
+##  Demo
 
 ![Demo GIF](images/Roaster-Dashboard.png)
 
 
-## ✨ Features
+## Features
 
 - Send messages and receive witty, customized roasts
 - Messages are analyzed in real-time for patterns like:
@@ -19,15 +19,15 @@ A full-stack web application featuring a witty chicken chatbot that playfully "r
   - Rapid message spamming → roast about keyboard warrior energy
   - Long paragraphs → jokes about writing novels
 - **Live Roast-O-Meter**: Visual gauge that tracks and displays:
-  - 🌶️ Spicy Level
-  - 🤡 Clown Energy
-  - 🎭 Drama Potential
-  - ⌨️ Keyboard Warrior Energy
+  - Spicy Level
+  - Clown Energy
+  - Drama Potential
+  - Keyboard Warrior Energy
 - Animated chicken character that changes expressions based on user messages
 - Fully mobile-friendly interface
 - Roast metrics stored in localStorage between sessions
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React.js** 
@@ -68,7 +68,7 @@ The client will start on http://localhost:3000
 9. The chicken mascot reacts with an appropriate expression
 
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - User authentication
 - Customizable chicken mascot

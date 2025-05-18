@@ -55,7 +55,7 @@ A full-stack web application featuring a witty chicken chatbot that playfully "r
 The client will start on http://localhost:3000
 
 
-## 🧠 How It Works
+## How It Works
 
 1. User connects to the application and a socket connection is established
 2. Initial Roast-O-Meter metrics are sent from server to client
